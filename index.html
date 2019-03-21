@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./assets/javascript/game.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <h1>Soccer Players</h1>
+    <p>You will be given a random number at the start of the game. <br>
+        There are four soccer players below. By clicking on a soccer player you will add a specific amount of points to your total score. <br>
+        You win the game by matching your total score to random number, you lose the game if your total score goes above the random number. <br>
+        The value of each soccer player is hidden from you until you click on it. <br>
+        Each time when the game starts, the game will change the values of each soccer player.
+    </p>
+    <div class="container">
+        <div id="randomNumber">0</div>
+        <div id="results">
+            <div class="wins">Wins:</div> <br>
+            <div class="losses">Losses:</div>
+        </div>
+    </div>
+   
+    <div id="soccerPlayers">
+       <img class="image1" src="https://cacm.acm.org/system/assets/0002/8226/080317_Getty_Images_Europe_Messi.large.jpg?1501778994&1501778994" alt="">
+    
+       <img class="image2" src="https://render.fineartamerica.com/images/rendered/search/framed-print/images-medium-5/cristiano-ronaldo-paul-meijering.jpg" alt="">
+    
+       <img class="image3" src="https://nielsensports.com/wp-content/uploads/2015/06/Wayne-Rooney-250x250.jpg" alt="">
+    
+       <img class="image4" src="https://statics.sportskeeda.com/wp-content/uploads/2013/02/130196227-1317041-250x250.jpg" alt="">
+    
+    </div>
+    <div id="totalScores">Your total score is:</div>
+    <div id="scorebox">0</div>
+</body>
+</html>
